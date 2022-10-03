@@ -107,3 +107,28 @@ footer .imgVideo{
     font-weight: bold;
     color: greenyellow;
 }
+@media screen and (max-width: 760px){
+header{
+    text-align: center;
+    display: block;
+}
+.logo{
+    margin: auto;
+    margin-bottom: 1em;
+}
+.navigation{
+    width: 80%;
+    display: inline;
+}
+.navigation li {
+    padding: 5px;
+    font-size: 13px;
+}
+section ol li{
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    padding: 2px 4px;
+}
+}
